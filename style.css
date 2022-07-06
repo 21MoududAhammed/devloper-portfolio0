@@ -5,12 +5,16 @@ body{
 h1{
     font-size: 50px;
 }
+.display-flex{
+    display: flex;
+    padding: 20px;
+}
 .orange-color{
     color: gold;
 }
 .section1{
-    display: flex;
-    padding: 20px;
+    /* display: flex;
+    padding: 20px; */
     background-image: url(images/images/top-banner.png);
     background-repeat: no-repeat;
 
@@ -30,8 +34,8 @@ h1{
     
 }
 .section2{
-    display: flex;
-    padding: 20px;
+    /* display: flex;
+    padding: 20px; */
     background-image: url(images/images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -40,4 +44,30 @@ h1{
 .paragraph{
     padding-right: 70px;
     padding-bottom: 50px;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 30px;
+    box-shadow: 10px 10px 40px gray;
+    /* border-left: 7px solid blue; */
+   
+}
+.section3{
+    background-image: url(images/images/exp-bg.png);
+    background-repeat: no-repeat;
+
+}
+#full-stak-developer{
+    border-left: 7px solid tomato;
+    border-radius: 5px;
+}
+#baby-stak-developer{
+    border-left: 7px solid blue;
+    border-radius: 5px;
+}
+
+footer p{
+    text-align: center;
 }
