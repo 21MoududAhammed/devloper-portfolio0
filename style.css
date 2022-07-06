@@ -27,4 +27,17 @@ h1{
     background-color: orange;
     padding: 10px 40px;
     border-radius: 10px;
+    
+}
+.section2{
+    display: flex;
+    padding: 20px;
+    background-image: url(images/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-top: 100px;
+}
+.paragraph{
+    padding-right: 70px;
+    padding-bottom: 50px;
 }
